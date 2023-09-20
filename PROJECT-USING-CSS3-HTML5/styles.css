@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+body {
+    background-color: rgba(224, 218, 218, 0.534);
+    font-family: myfont1;
+    text-align:center;
+    text-size-adjust: auto;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 100px;
+    
+}
+h1 {
+    color:#1F2937;
+}
+p {
+    color: #111827
+}
+@font-face {
+    font-family: myfont1;
+    src: url(circular_regular.woff);
+}
+#image {
+    display:block;
+    margin: auto;
+    background-color: honeydew;
+    border-radius: 25px;
+    border: 2px solid black;
+    max-width: 100%;
+}
+#tribute-info {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(214, 194, 194);
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 450px;
+    margin: auto;
+}
+.pagecontent {
+    text-align: left;
+}
+#tribute-link {
+    padding: 10px;
+    background-color: grey;
+    margin-left: 0.1cm;
+    border-radius: 20px;
+}
+
